@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: Knife
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Knife
-  <Icon>k__BackingField: {fileID: 21300000, guid: f9ce25b1efe79434685dda09b68702b1,
-    type: 3}
+  <Icon>k__BackingField: {fileID: 21300000, guid: f9ce25b1efe79434685dda09b68702b1, type: 3}
   <Price>k__BackingField: 0
   <HealthDamage>k__BackingField: 2
   <ChargeDamage>k__BackingField: 0
-  <Prefab>k__BackingField: {fileID: 1902083117957933467, guid: 261f0b2230d23684b9fec837b22c6f0e,
-    type: 3}
+  <Prefab>k__BackingField: {fileID: 1902083117957933467, guid: 997f9aeb7732bfb4ebb3db63b54e5154, type: 3}
   <AttaskSpeed>k__BackingField: 1
   <TypeId>k__BackingField: 0

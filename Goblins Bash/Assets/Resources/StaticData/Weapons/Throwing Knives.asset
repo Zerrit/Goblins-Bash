@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: Throwing Knives
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Throwing Knives
-  <Icon>k__BackingField: {fileID: 21300074, guid: 1eaee135ce037439d925cee5e41ce026,
-    type: 3}
+  <Icon>k__BackingField: {fileID: 21300074, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
   <Price>k__BackingField: 250
   <HealthDamage>k__BackingField: 1
   <ChargeDamage>k__BackingField: 1
-  <Prefab>k__BackingField: {fileID: 360335086292206285, guid: 849e616acf7192f43b915c1971f69bf8,
-    type: 3}
-  <AttackCooldown>k__BackingField: 2.5
-  <ArrowCount>k__BackingField: 6
+  <Prefab>k__BackingField: {fileID: 360335086292206285, guid: 8b1c1953b1fcf834eb993447c2ba9ca6, type: 3}
+  <DefaultProjectileCount>k__BackingField: 0
+  <MaxProjectileCount>k__BackingField: 0
+  <ProjectileCooldown>k__BackingField: 0
   <TypeId>k__BackingField: 1

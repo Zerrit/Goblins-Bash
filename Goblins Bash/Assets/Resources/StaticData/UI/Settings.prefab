@@ -565,7 +565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 662b345e8a068894cb8e4c7264655f0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Type>k__BackingField: 0
+  <Type>k__BackingField: 1
   musicMuter: {fileID: 8502556402584580186}
   musicSlider: {fileID: 7968182003086097855}
   effectsMuter: {fileID: 8191308336518761206}

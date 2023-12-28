@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meleeWeapon:
   - {fileID: 11400000, guid: 84a3868743c21aa418787c2acad0bd54, type: 2}
-  - {fileID: 11400000, guid: 595ffda6040541e4eb2d8863ff34cebe, type: 2}
+  - {fileID: 11400000, guid: 67e25042fe1422446b19c76d1ddbd26c, type: 2}
   rangeWeapon:
+  - {fileID: 11400000, guid: acd4cf3c073d8ef4a923274ef5fe4530, type: 2}
   - {fileID: 11400000, guid: abdec3f954c5d63408233ea7b06ed2a5, type: 2}
-  - {fileID: 11400000, guid: a136c8f888f82624090c0f5c622f8601, type: 2}

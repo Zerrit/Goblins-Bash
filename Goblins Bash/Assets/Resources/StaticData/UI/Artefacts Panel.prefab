@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 3036944749924543809}
   - component: {fileID: 6888420660185486071}
   - component: {fileID: 1214979865665456639}
-  - component: {fileID: 4399651208173918410}
+  - component: {fileID: 2873824487620961389}
   m_Layer: 5
   m_Name: Artefacts Panel
   m_TagString: Untagged
@@ -294,7 +294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a454050719005b444b59a84eaafba779, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 302863f97be1a8342a0c2d35ca7c1a30, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4399651208173918410
+--- !u!114 &2873824487620961389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8529412154389264452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4be451c245042998b40dd40202016ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fa5a007ec84d1c4995de02522bff2d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   artifactPlaces:
