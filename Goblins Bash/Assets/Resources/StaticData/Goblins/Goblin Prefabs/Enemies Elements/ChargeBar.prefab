@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2566191079281106363}
-  - component: {fileID: 4869828116951705198}
+  - component: {fileID: 8627975580193763964}
   m_Layer: 0
   m_Name: ChargeBar
   m_TagString: Untagged
@@ -38,7 +38,7 @@ Transform:
   - {fileID: 3497250625642127201}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4869828116951705198
+--- !u!114 &8627975580193763964
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 802263402551053130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b89b533582793242b49d8760962a0b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d1884e376afa4f40b55a54173575a3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   charges:

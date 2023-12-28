@@ -162,7 +162,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4108542498984390155}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b846462642430fa64366d76c525d2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 857f0940f20266e4d8b65df04aa0e663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   artifactImage: {fileID: 9211034009902622190}

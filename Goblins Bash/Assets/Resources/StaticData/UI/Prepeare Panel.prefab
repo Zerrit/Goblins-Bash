@@ -86,11 +86,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 964230869859579031}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c782c75aa1f464c85c1ffc3b84ee48b, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2c8c386f7b1534b82902761937b02d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   <Type>k__BackingField: 4
-  pauseText: {fileID: 700741638121862921}
+  waveText: {fileID: 0}
+  popUpText: {fileID: 700741638121862921}
 --- !u!1 &8859386530538424641
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,8 +160,7 @@ MonoBehaviour:
   m_text: Tap To Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 44a6aaf7601395f48bac786318218d52, type: 2}
-  m_sharedMaterial: {fileID: 8595629533170812192, guid: 44a6aaf7601395f48bac786318218d52,
-    type: 2}
+  m_sharedMaterial: {fileID: 8595629533170812192, guid: 44a6aaf7601395f48bac786318218d52, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
