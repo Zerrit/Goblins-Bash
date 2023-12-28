@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 3030340101458311995}
   - component: {fileID: 6328839240965504926}
   m_Layer: 0
-  m_Name: strela
+  m_Name: Arrow Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -44,8 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1b1d22f9ca23a438f717743216cb3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 1
-  lastAttackTime: 0
-  <WeaponType>k__BackingField: 0
-  arrowPrefab: {fileID: -5195842355165937856, guid: b6fafa954e3f3364db9a187422d5638c,
-    type: 3}
+  arrowPrefab: {fileID: -5195842355165937856, guid: 131b2aea4ad286f4fb20f24a5bc82706, type: 3}

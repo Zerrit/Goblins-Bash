@@ -67,9 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Loading...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44a6aaf7601395f48bac786318218d52, type: 2}
-  m_sharedMaterial: {fileID: 8595629533170812192, guid: 44a6aaf7601395f48bac786318218d52,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -147,7 +146,7 @@ GameObject:
   - component: {fileID: 3772331587424135942}
   - component: {fileID: 7950734812807373069}
   - component: {fileID: 1908412331279114113}
-  - component: {fileID: 1735508425364563240}
+  - component: {fileID: 7496622338773617048}
   m_Layer: 5
   m_Name: LoadScreen
   m_TagString: Untagged
@@ -193,7 +192,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -233,7 +232,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &1735508425364563240
+--- !u!114 &7496622338773617048
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,7 +241,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1608115355156368687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5ce51b96b0e4f9e9f007bf99363c591, type: 3}
+  m_Script: {fileID: 11500000, guid: e67b9f3e90e35bc4f8e865e1028c640a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 1908412331279114113}
@@ -313,7 +312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b85c7afcb250c2499faf1d205d1da81, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5c1917b6b6523284ebb5ceac7797807a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

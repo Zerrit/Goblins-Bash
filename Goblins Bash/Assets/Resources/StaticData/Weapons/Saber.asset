@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: Saber
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Saber
-  <Icon>k__BackingField: {fileID: 21300028, guid: 1eaee135ce037439d925cee5e41ce026,
-    type: 3}
+  <Icon>k__BackingField: {fileID: 21300028, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
   <Price>k__BackingField: 700
   <HealthDamage>k__BackingField: 4
   <ChargeDamage>k__BackingField: 0
-  <Prefab>k__BackingField: {fileID: 1486095165087727303, guid: 60ed644b5c3e3594f98c888148d3f963,
-    type: 3}
+  <Prefab>k__BackingField: {fileID: 1486095165087727303, guid: ea79605210a4f4347a9cced6ae3f549f, type: 3}
   <AttaskSpeed>k__BackingField: 1.5
   <TypeId>k__BackingField: 1

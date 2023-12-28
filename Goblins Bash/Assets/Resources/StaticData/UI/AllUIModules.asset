@@ -12,5 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74569778716c20040870e89a966ab2e2, type: 3}
   m_Name: AllUIModules
   m_EditorClassIdentifier: 
-  rootUI: {fileID: 0}
-  uiModules: []
+  rootUI: {fileID: 8696520390814745356, guid: b8532f165c0fc95458df0d086d77b9c4, type: 3}
+  uiModules:
+  - {fileID: 8295323294024982095, guid: b3cf88dc817a4104384ce0fe7a96773c, type: 3}
+  - {fileID: 1771441845527725947, guid: fdcd319768aa75247a916c411a745d96, type: 3}
+  - {fileID: 1972222972538537102, guid: db77244aca57527479b49c80c2226ce4, type: 3}
+  - {fileID: 6077353443993210523, guid: 1ba85e0b9bfb1f34f902f471c3daf03c, type: 3}
+  - {fileID: 1023217463902416743, guid: bb3d83ee60b6d9649a66c95027da4fe7, type: 3}
+  - {fileID: 4894813703690010401, guid: 7f0649dcf2d375042b38a973e3237e16, type: 3}
+  - {fileID: 6340506157504188064, guid: 4b9d8d9cfd7bfd74e871f5488665b0a3, type: 3}
+  - {fileID: 2846179838028755353, guid: 741b3cfd4b882fc43b555cde15b01f73, type: 3}
+  - {fileID: 1989893632270947125, guid: 640561b27d9013d4894415aefcff749f, type: 3}

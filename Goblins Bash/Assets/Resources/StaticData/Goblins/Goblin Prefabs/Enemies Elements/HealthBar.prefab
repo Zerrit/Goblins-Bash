@@ -128,12 +128,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4402825370808715490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20fc96b604d449d198543dcad9e5ab52, type: 3}
+  m_Script: {fileID: 11500000, guid: f78d66282f3641240896b270d7a738c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 4898537818617705837}
   healthText: {fileID: 8826692131605965385}
-  maxBarSize: 3.1
+  maxBarSize: 3
 --- !u!1 &6734669972950933856
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +191,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8595629533170812192, guid: 44a6aaf7601395f48bac786318218d52, type: 2}
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -235,9 +235,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7.544
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44a6aaf7601395f48bac786318218d52, type: 2}
-  m_sharedMaterial: {fileID: 8595629533170812192, guid: 44a6aaf7601395f48bac786318218d52,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -261,7 +260,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.2
+  m_fontSize: 4.7
   m_fontSizeBase: 3
   m_fontWeight: 400
   m_enableAutoSizing: 1

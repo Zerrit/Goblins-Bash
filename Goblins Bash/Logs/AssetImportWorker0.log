@@ -15,7 +15,7 @@ C:/GameDevelopment/UnityProjects/Goblins Bash/Goblins Bash
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51881
+57286
 Successfully changed project path to: C:/GameDevelopment/UnityProjects/Goblins Bash/Goblins Bash
 C:/GameDevelopment/UnityProjects/Goblins Bash/Goblins Bash
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/GameDevelopment/UnityProjects/Goblins Bash/Goblins Bash
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11840] Host "[IP] 192.168.43.37 [Port] 0 [Flags] 2 [Guid] 4057542096 [EditorId] 4057542096 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9K3IJRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8464] Host "[IP] 192.168.43.37 [Port] 0 [Flags] 2 [Guid] 2296440380 [EditorId] 2296440380 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9K3IJRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11840] Host "[IP] 192.168.43.37 [Port] 0 [Flags] 2 [Guid] 4057542096 [EditorId] 4057542096 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9K3IJRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8464] Host "[IP] 192.168.43.37 [Port] 0 [Flags] 2 [Guid] 2296440380 [EditorId] 2296440380 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9K3IJRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 519.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 145.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,48 +69,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.023683 seconds.
-- Loaded All Assemblies, in  1.244 seconds
+Registered in 0.068543 seconds.
+- Loaded All Assemblies, in  2.596 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.845 seconds
-Domain Reload Profiling: 2086ms
-	BeginReloadAssembly (377ms)
+- Finished resetting the current domain, in  1.700 seconds
+Domain Reload Profiling: 4284ms
+	BeginReloadAssembly (767ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (128ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (201ms)
-	LoadAllAssembliesAndSetupDomain (505ms)
-		LoadAssemblies (371ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (284ms)
+	RebuildNativeTypeToScriptingClass (67ms)
+	initialDomainReloadingComplete (467ms)
+	LoadAllAssembliesAndSetupDomain (997ms)
+		LoadAssemblies (760ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (499ms)
-			TypeCache.Refresh (495ms)
-				TypeCache.ScanAssembly (453ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (846ms)
+		AnalyzeDomain (979ms)
+			TypeCache.Refresh (972ms)
+				TypeCache.ScanAssembly (898ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1703ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (663ms)
+		SetupLoadedEditorAssemblies (1332ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (19ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (167ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (847ms)
+			ProcessInitializeOnLoadMethodAttributes (425ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -119,8 +119,8 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.238 seconds
-Refreshing native plugins compatible for Editor in 18.32 ms, found 3 plugins.
+- Loaded All Assemblies, in  6.340 seconds
+Refreshing native plugins compatible for Editor in 48.37 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -128,83 +128,687 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.903 seconds
-Domain Reload Profiling: 4133ms
-	BeginReloadAssembly (430ms)
+- Finished resetting the current domain, in  5.292 seconds
+Domain Reload Profiling: 11610ms
+	BeginReloadAssembly (1357ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (41ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (98ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (136ms)
-	LoadAllAssembliesAndSetupDomain (1537ms)
-		LoadAssemblies (1133ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (309ms)
+	RebuildCommonClasses (212ms)
+	RebuildNativeTypeToScriptingClass (84ms)
+	initialDomainReloadingComplete (300ms)
+	LoadAllAssembliesAndSetupDomain (4361ms)
+		LoadAssemblies (3222ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (671ms)
-			TypeCache.Refresh (592ms)
-				TypeCache.ScanAssembly (540ms)
-			ScanForSourceGeneratedMonoScriptInfo (56ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1904ms)
+		AnalyzeDomain (1870ms)
+			TypeCache.Refresh (1613ms)
+				TypeCache.ScanAssembly (1501ms)
+			ScanForSourceGeneratedMonoScriptInfo (203ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (5295ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1331ms)
+		SetupLoadedEditorAssemblies (3948ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (27ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (172ms)
-			ProcessInitializeOnLoadAttributes (1049ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (522ms)
+			ProcessInitializeOnLoadAttributes (3013ms)
+			ProcessInitializeOnLoadMethodAttributes (288ms)
+			AfterProcessingInitializeOnLoad (49ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 19.82 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (54ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.51 seconds
+Refreshing native plugins compatible for Editor in 74.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4148 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (60.5 KB). Loaded Objects now: 4608.
-Memory consumption went from 142.1 MB to 142.1 MB.
-Total: 9.579200 ms (FindLiveObjects: 0.783200 ms CreateObjectMapping: 1.070000 ms MarkObjects: 7.350100 ms  DeleteObjects: 0.372800 ms)
+Unloading 5227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (66.2 KB). Loaded Objects now: 5690.
+Memory consumption went from 166.7 MB to 166.6 MB.
+Total: 19.950400 ms (FindLiveObjects: 1.263700 ms CreateObjectMapping: 1.492000 ms MarkObjects: 16.769700 ms  DeleteObjects: 0.422000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16443.740351 seconds.
-  path: Assets/_Scenes/Menu.unity
-  artifactKey: Guid(0b5246ddf6845b3458c1f3bf3828ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/Menu.unity using Guid(0b5246ddf6845b3458c1f3bf3828ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511614c76354b0a14e3f9e933e19e2fa') in 0.009187 seconds
+  Time since last request: 26794.485825 seconds.
+  path: Assets/_Materials/Stone.mat
+  artifactKey: Guid(05b4163ed4f8da8469303eda96b4aea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Stone.mat using Guid(05b4163ed4f8da8469303eda96b4aea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc1033a1e1f4ad9c0b148325c4fa20e') in 0.587336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.789351 seconds.
+  path: Assets/2_Prefabs/AudioService.prefab
+  artifactKey: Guid(c67fd44f9a92bbe40a074a0448ad61b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2_Prefabs/AudioService.prefab using Guid(c67fd44f9a92bbe40a074a0448ad61b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3950f4ce539335fa6527cd516cbe17e') in 0.056876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.585322 seconds.
+  path: Assets/2_Prefabs/AudioService.prefab
+  artifactKey: Guid(c67fd44f9a92bbe40a074a0448ad61b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2_Prefabs/AudioService.prefab using Guid(c67fd44f9a92bbe40a074a0448ad61b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47880a71e3ab9af1b748ffb8c10f8c8') in 0.010783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.722567 seconds.
+  path: Assets/2_Prefabs/AudioService.prefab
+  artifactKey: Guid(c67fd44f9a92bbe40a074a0448ad61b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2_Prefabs/AudioService.prefab using Guid(c67fd44f9a92bbe40a074a0448ad61b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1008f9559187a3cd5f6fd1c4817205') in 0.008791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 14.132 seconds
+Refreshing native plugins compatible for Editor in 195.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.422 seconds
+Domain Reload Profiling: 27483ms
+	BeginReloadAssembly (4327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (194ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (752ms)
+	RebuildCommonClasses (634ms)
+	RebuildNativeTypeToScriptingClass (103ms)
+	initialDomainReloadingComplete (734ms)
+	LoadAllAssembliesAndSetupDomain (8254ms)
+		LoadAssemblies (9414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1688ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (50ms)
+			ScanForSourceGeneratedMonoScriptInfo (634ms)
+			ResolveRequiredComponents (784ms)
+	FinalizeReload (13430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (465ms)
+			ProcessInitializeOnLoadAttributes (1809ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (44ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (89ms)
+Refreshing native plugins compatible for Editor in 61.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5234 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 5762.
+Memory consumption went from 169.1 MB to 168.4 MB.
+Total: 20.401500 ms (FindLiveObjects: 2.438200 ms CreateObjectMapping: 5.524200 ms MarkObjects: 8.286900 ms  DeleteObjects: 4.149000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.522 seconds
+Refreshing native plugins compatible for Editor in 28.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.212 seconds
+Domain Reload Profiling: 7721ms
+	BeginReloadAssembly (713ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (64ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (144ms)
+	RebuildCommonClasses (135ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (1471ms)
+		LoadAssemblies (1676ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (78ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (5217ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1681ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (1236ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 25.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5236 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 5767.
+Memory consumption went from 169.3 MB to 168.6 MB.
+Total: 11.135000 ms (FindLiveObjects: 0.929500 ms CreateObjectMapping: 0.917700 ms MarkObjects: 8.015300 ms  DeleteObjects: 1.269800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 943.975328 seconds.
+  path: Assets/Travis Game Assets
+  artifactKey: Guid(de928fea75cd9104b888ebaac7c30364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Travis Game Assets using Guid(de928fea75cd9104b888ebaac7c30364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee9ac75f0f91c539479ec7f3467b6ab') in 0.005277 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 26.157366 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(939ec590130497e49abf69d7f3156c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(939ec590130497e49abf69d7f3156c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e170a810407982c3b91d3e8bd413706a') in 0.001222 seconds
+  Time since last request: 6.582943 seconds.
+  path: Assets/JMO Assets
+  artifactKey: Guid(976974e4d3018034e87caeb9f51f20f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets using Guid(976974e4d3018034e87caeb9f51f20f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73d8d97c44975c6e9e71967b5cdf622') in 0.001600 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 16.35 ms, found 3 plugins.
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.743 seconds
+Refreshing native plugins compatible for Editor in 332.33 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.704 seconds
+Domain Reload Profiling: 9428ms
+	BeginReloadAssembly (704ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (149ms)
+	RebuildCommonClasses (150ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (1677ms)
+		LoadAssemblies (1850ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (69ms)
+				TypeCache.ScanAssembly (16ms)
+			ScanForSourceGeneratedMonoScriptInfo (100ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (6705ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (316ms)
+			ProcessInitializeOnLoadAttributes (1047ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 25.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4608.
-Memory consumption went from 73.3 MB to 73.3 MB.
-Total: 9.301800 ms (FindLiveObjects: 0.567400 ms CreateObjectMapping: 0.457300 ms MarkObjects: 8.212800 ms  DeleteObjects: 0.061100 ms)
+Unloading 5235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 5771.
+Memory consumption went from 169.3 MB to 168.6 MB.
+Total: 13.278000 ms (FindLiveObjects: 0.802900 ms CreateObjectMapping: 0.741800 ms MarkObjects: 9.971400 ms  DeleteObjects: 1.758700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.822425 seconds.
+  path: Assets/Plugins/New Folder
+  artifactKey: Guid(d9cc5a7beeeadb34f99cb4d0234a2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/New Folder using Guid(d9cc5a7beeeadb34f99cb4d0234a2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18e52e6926e48031f2f35816cc78254') in 0.004684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.678573 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.001300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.647054 seconds.
+  path: Assets/Downloaded Assets
+  artifactKey: Guid(083be06584b0b0041b6f6ecfa36f0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded Assets using Guid(083be06584b0b0041b6f6ecfa36f0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaa5a0315875695df1f69e8b5b23376') in 0.002136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  5.518 seconds
+Refreshing native plugins compatible for Editor in 54.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 12.280 seconds
+Domain Reload Profiling: 17764ms
+	BeginReloadAssembly (1735ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (260ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (331ms)
+	RebuildCommonClasses (306ms)
+	RebuildNativeTypeToScriptingClass (90ms)
+	initialDomainReloadingComplete (284ms)
+	LoadAllAssembliesAndSetupDomain (3067ms)
+		LoadAssemblies (3515ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (27ms)
+			ScanForSourceGeneratedMonoScriptInfo (176ms)
+			ResolveRequiredComponents (73ms)
+	FinalizeReload (12282ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (26ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (982ms)
+			ProcessInitializeOnLoadAttributes (2774ms)
+			ProcessInitializeOnLoadMethodAttributes (288ms)
+			AfterProcessingInitializeOnLoad (53ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (103ms)
+Refreshing native plugins compatible for Editor in 77.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 5775.
+Memory consumption went from 169.3 MB to 168.6 MB.
+Total: 28.907800 ms (FindLiveObjects: 2.312800 ms CreateObjectMapping: 1.183500 ms MarkObjects: 23.575300 ms  DeleteObjects: 1.792300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 287.729806 seconds.
+  path: Assets/Downloaded
+  artifactKey: Guid(083be06584b0b0041b6f6ecfa36f0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded using Guid(083be06584b0b0041b6f6ecfa36f0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db269afa09ee4a7255e19ece453bb30') in 0.007937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameDevelopment\UnityProjects\Goblins Bash\Goblins Bash\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.912 seconds
+Refreshing native plugins compatible for Editor in 22.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXRRuntime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'CFXRDemo' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Downloaded Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'CFXREditor' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Downloaded/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+Assembly with name 'CFXR.WelcomeScreen' already exists (Assets/Downloaded/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.516 seconds
+Domain Reload Profiling: 8398ms
+	BeginReloadAssembly (733ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (54ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (215ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (182ms)
+	LoadAllAssembliesAndSetupDomain (1702ms)
+		LoadAssemblies (1987ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (49ms)
+				TypeCache.ScanAssembly (13ms)
+			ScanForSourceGeneratedMonoScriptInfo (64ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (5517ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (330ms)
+			ProcessInitializeOnLoadAttributes (1069ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 36.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 5779.
+Memory consumption went from 169.2 MB to 168.5 MB.
+Total: 11.808400 ms (FindLiveObjects: 0.890000 ms CreateObjectMapping: 0.894400 ms MarkObjects: 8.653300 ms  DeleteObjects: 1.368100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
